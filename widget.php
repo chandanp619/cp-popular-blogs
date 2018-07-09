@@ -16,7 +16,7 @@ function __construct(){
 }
 
 function CPARC_add_Resource(){
-    wp_enqueue_style('cp-popular-posts',plugins_url('/css/cp-popular-posts-widget.css',__FILE__));
+    //wp_enqueue_style('cp-popular-posts',plugins_url('/css/cp-popular-posts-widget.css',__FILE__));
 }
 function form($instance){
     if ( isset( $instance[ 'title' ] ) ) {
